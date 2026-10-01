@@ -1,25 +1,123 @@
- * {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
- }
- 
- .header {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
   background-color: #e0e0e0;
- }
+}
 
- .header a {
+.header a {
   color: #333;
   font-size: 18px;
-  font-weight:400;
+  font-weight: 400;
   text-decoration: none;
- }
+}
 
- .header img {
+.header img {
   width: 30px;
- }
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 0 20px;
+}
+
+.auth-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  padding: 32px;
+}
+
+.form-header {
+  font-size: 14px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.input-form {
+  height: 40px;
+  padding: 12px 36px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.forget-password {
+  font-size: 12px;
+  color: #007bff;
+  text-decoration: none;
+  align-self:flex-end;
+}
+
+.login-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.register-btn {
+  background-color: #fff;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.register-btn:hover {
+  background-color: #27a238;
+}
+
+.google-icon {
+  width: 20px;
+}
