@@ -34,6 +34,7 @@
 }
 
 .auth-card {
+  margin-top: 60px;
   border: 1px solid #ccc;
   border-radius: 8px;
   display: flex;
@@ -71,7 +72,7 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
-  flex: 1;
+
 }
 
 .phone-group {
@@ -80,10 +81,17 @@
   width: 100%;
 }
 
+.phone-group .input-form {
+  flex: 1;
+  min-width: 0;
+}
+
 .country-code {
-  width: 130px;
+  width: 115px;
+  height: 40px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  font-size: 12px;
 }
 
 .forget-password {
